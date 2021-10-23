@@ -6,6 +6,6 @@ import com.apiweb.entities.Category;
 
 
 
-public interface CategoryRepository<CategoryRepository> extends JpaRepository<Category, Long > {
+public interface CategoryRepository extends JpaRepository<Category, Long > {
 
 }
